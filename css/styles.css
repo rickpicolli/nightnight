@@ -601,6 +601,13 @@ pre code {
     max-width: 1140px;
   }
 }
+@media (min-width: 576px) {
+  .about-flex {
+    width: 100%;
+  }
+}
+
+
 .row {
   display: flex;
   flex-wrap: wrap;
