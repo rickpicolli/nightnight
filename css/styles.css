@@ -601,9 +601,18 @@ pre code {
     max-width: 1140px;
   }
 }
-@media (min-width: 576px) {
+@media (max-width: 576px) {
   .about-flex {
-    width: 100%;
+    flex-flow: row wrap;
+  }
+}
+
+@media (max-width: 576px) {
+  .myPhoto {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* width: 50%; */
   }
 }
 
