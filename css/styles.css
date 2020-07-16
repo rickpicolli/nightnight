@@ -623,7 +623,9 @@ pre code {
   }
 }
 
-
+.footerImage {
+  height: 40px;;
+}
 
 .row {
   display: flex;
