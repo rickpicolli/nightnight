@@ -616,12 +616,13 @@ pre code {
     display: center;
     /* margin: 0 auto !important; */
 
-    margin-left: 110px;
+    margin-left: 50px;
     /* margin-right: auto; */
     margin-bottom: 20px;
     /* width: 50%; */
   }
 }
+
 
 
 .row {
