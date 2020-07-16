@@ -626,6 +626,10 @@ pre code {
 .footerImage {
   height: 35px;;
 }
+.footerImage2 {
+  height: 32px;
+  width: 200px;
+}
 
 .row {
   display: flex;
