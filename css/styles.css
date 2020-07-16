@@ -604,7 +604,7 @@ pre code {
 @media (max-width: 576px) {
   .about-flex {
     flex-flow: row wrap;
-    display: block;
+    display: center;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 20px;
@@ -613,9 +613,11 @@ pre code {
 
 @media (max-width: 576px) {
   .myPhoto {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    display: center;
+    /* margin: 0 auto !important; */
+
+    margin-left: 110px;
+    /* margin-right: auto; */
     margin-bottom: 20px;
     /* width: 50%; */
   }
@@ -10183,6 +10185,12 @@ hr.light {
   }
 }
 
+.freeCall {
+  color: red !important;
+  text-decoration: underline !important;
+
+}
+
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 4.5rem);
@@ -10308,3 +10316,7 @@ header.masthead h1 {
 /* #about-text {
   margin-left: 20px;
 } */
+
+.textFooter {
+  color: black;
+}
