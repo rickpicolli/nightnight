@@ -2662,11 +2662,11 @@ fieldset:disabled a.btn {
   box-shadow: 0 0 0 0.2rem rgba(222, 170, 12, 0.5);
 }
 
-.btn-danger {
+/* .btn-danger {
   color: #fff;
   background-color: #dc3545;
   border-color: #dc3545;
-}
+} */
 .btn-danger:hover {
   color: #fff;
   background-color: #c82333;
@@ -7760,7 +7760,7 @@ button.bg-dark:focus {
 
 .pt-3,
 .py-3 {
-  padding-top: 1rem !important;
+  padding-top: 0rem !important;
 }
 
 .pr-3,
@@ -7770,7 +7770,7 @@ button.bg-dark:focus {
 
 .pb-3,
 .py-3 {
-  padding-bottom: 1rem !important;
+  padding-bottom: 0rem !important;
 }
 
 .pl-3,
@@ -10200,9 +10200,58 @@ hr.light {
 }
 
 .freeCall {
-  color: red !important;
-  text-decoration: underline !important;
+  color: white !important;
+  padding: 0px !important;
+  margin-top: 0px;
+  /* background-color: #f5623a; */
+  /* border-radius: 20%; */
+  /* text-decoration: underline !important; */
+}
 
+.btn-danger {
+  background-color: #f5623a;
+  margin-bottom: 10px;
+  height: 25px;
+  width: 150px;
+  border: solid transparent 2px;
+  cursor: pointer !important;
+  border-radius: 100px 100px 100px 100px;
+  /* position: absolute; */
+  transition: border-color 0.4 ease 0s, background-color 0.4s ease 0s;
+}
+
+.btn-danger-port {
+  background-color: #f5623a;
+  height: 25px;
+  width: 250px;
+  border: solid transparent 2px;
+  cursor: pointer !important;
+  border-radius: 100px 100px 100px 100px;
+  /* position: absolute; */
+  transition: border-color 0.4 ease 0s, background-color 0.4s ease 0s;
+}
+
+.btn-danger:hover{
+  background-color: white;
+  border-color: #f5623a;
+}
+.btn-danger-port:hover{
+  background-color: white;
+  border-color: #f5623a;
+}
+
+.freeCall:hover {
+  color: #f5623a !important;
+}
+
+#menu1 {
+  padding: 0px 0px 0px 20px !important;
+}
+
+@media (max-width: 576px) {
+  #menu1 {
+    padding: 15px 0px 0px 0px !important;
+  }
 }
 
 header.masthead {
@@ -10276,8 +10325,8 @@ header.masthead h1 {
 
 .text-white-75 {
   /* color: rgba(255, 255, 255, 0.75); */
-  color: black;
-  text-shadow: 2px 2px 4px #000000;
+  color: #2c546f;
+  /* text-shadow: 2px 2px 4px #000000; */
   /* text-shadow: -1px -1px 1px #333, 1px -1px 1px #333, -1px 1px 1px #333, 1px 1px 1px #333; */
 }
 
