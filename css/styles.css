@@ -3951,7 +3951,9 @@ input[type=button].btn-block {
 .nav-link {
   display: block;
   padding: 0.5rem 1rem;
+  /* width: 113px; */
 }
+
 .nav-link:hover, .nav-link:focus {
   text-decoration: none;
 }
@@ -10202,10 +10204,14 @@ hr.light {
 .freeCall {
   color: white !important;
   padding: 0px !important;
-  margin-top: 0px;
+  margin-top: -10px;
   /* background-color: #f5623a; */
   /* border-radius: 20%; */
   /* text-decoration: underline !important; */
+}
+
+.sobreM {
+  width: 120px !important;
 }
 
 .btn-danger {
@@ -10246,6 +10252,14 @@ hr.light {
 
 #menu1 {
   padding: 0px 0px 0px 20px !important;
+  margin-top: -15px;
+}
+
+.clickB {
+  color: whitesmoke;
+  text-shadow: black;
+  font-size: 20px;
+  text-align: center;
 }
 
 @media (max-width: 576px) {
