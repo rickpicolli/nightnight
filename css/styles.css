@@ -10270,9 +10270,18 @@ hr.light {
   background-color: white;
   border-radius: 90px;
   margin-top: 30px;
+  margin-left: 70px;
   box-shadow: 2px 2px 4px 4px black;
   height: 650px;
 
+}
+
+.container {
+  width: 100%;
+}
+
+.row {
+  width: 100% !important;
 }
 
 .font-services-age {
@@ -10392,6 +10401,15 @@ header.masthead h1 {
   background-size: cover;
 
 }
+
+.box-services {
+  /* margin: 0px -100px 0px 0px !important; */
+}
+
+/* .container {
+  margin-right: 0px;
+  margin-left: 0px;
+} */
 
 /* #contact {
   background-color: #4b98ab;
