@@ -10210,6 +10210,10 @@ hr.light {
   /* text-decoration: underline !important; */
 }
 
+.title-services {
+  color: #f28241 !important;
+}
+
 .sobreM {
   width: 120px !important;
 }
@@ -10261,6 +10265,21 @@ hr.light {
   font-size: 20px;
   text-align: center;
 }
+
+.back-services {
+  background-color: white;
+  border-radius: 90px;
+  margin-top: 30px;
+  box-shadow: 2px 2px 4px 4px black;
+  height: 650px;
+
+}
+
+.font-services-age {
+  color: #4b98ab;
+}
+
+
 
 @media (max-width: 576px) {
   #menu1 {
@@ -10378,16 +10397,17 @@ header.masthead h1 {
   background-color: #4b98ab;
 } */
 
-.newborn-photo {
+/* .newborn-photo {
   height: 190px;
   width: 190px;
   margin-bottom: 20px;
-}
+} */
 
 .baby-photo {
   height: 190px;
   width: 190px;
   margin-bottom: 20px;
+  border-radius: 20px;
 }
 
 /* #about-text {
