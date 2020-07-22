@@ -9927,7 +9927,7 @@ a.text-dark:hover, a.text-dark:focus {
   /* color: rgba(255, 255, 255, 0.5) !important; */
   color: lightgrey;
   font-family: Brandon Grotesque;
-  font-size: 17px;
+  font-size: 18px;
 }
 
 .text-hide {
@@ -10385,6 +10385,7 @@ header.masthead h1 {
   display: flex;
 }
 
+
 #services {
   /* background-image: url("../assets/img/babyndad.jpg");
   -webkit-background-size: cover;
@@ -10491,13 +10492,17 @@ header.masthead h1 {
     /* margin: auto; */
     margin: 40px auto;
     display: grid;
-    background-color: rgba(255, 255, 255, 0.5);
+    /* background-color: rgba(255, 255, 255, 0.5); */
     /* background-color: rgba(245, 98, 58, 0.7); */
     
   }
 
-  .font-services-age, .font-services, .title-services {
+  .font-services-age, .font-services {
     margin: 15px 15px;
+  }
+
+  .title-services {
+    margin-top: 40px;
   }
 
   .baby-photo {
@@ -10508,7 +10513,11 @@ header.masthead h1 {
     margin: auto;
   }
 
-  .text-center {
-    /* background-color: rgba(255,255,255,0.5); */
+  /* .text-center {
+    background-color: rgba(255,255,255,0.5);
+  } */
+
+  .container {
+    margin: auto;
   }
 }
