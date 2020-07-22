@@ -10269,17 +10269,6 @@ hr.light {
   text-align: center;
 }
 
-.back-services {
-  background-color: white;
-  border-radius: 90px;
-  margin-top: 50px;
-  margin-left: 10px;
-  box-shadow: 2px 2px 4px 4px black;
-  height: 250px;
-  width: 100% !important;
-
-}
-
 .container {
   width: 100%;
 }
@@ -10412,6 +10401,17 @@ header.masthead h1 {
 
 }
 
+.back-services {
+  background-color: white;
+  border-radius: 90px;
+  margin-top: 50px;
+  margin-left: 10px;
+  box-shadow: 2px 2px 4px 4px black;
+  height: 250px;
+  width: 100% !important;
+
+}
+
 .services-flex {
   display: flex;
 }
@@ -10481,4 +10481,29 @@ header.masthead h1 {
 
 .textFooter {
   color: black;
+}
+
+
+@media (max-width: 576px) {
+  .back-services {
+    height: 100%;
+    width: 400px !important;
+    /* margin: auto; */
+    margin: 40px auto;
+    display: grid;
+    background-color: rgba(255,255,255,0.5);
+    
+  }
+
+  .font-services-age, .font-services, .title-services {
+    margin: 15px 15px;
+  }
+
+  .baby-photo {
+    margin: auto;
+  }
+
+  .aboutDisplay {
+    margin: auto;
+  }
 }
