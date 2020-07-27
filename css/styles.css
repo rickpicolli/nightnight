@@ -10513,9 +10513,9 @@ header.masthead h1 {
   color: black;
 }
 
-.giftPack {
+/* .giftPack {
   margin-right: 30px;
-}
+} */
 
 
 @media (max-width: 576px) {
@@ -10531,7 +10531,8 @@ header.masthead h1 {
   }
 
   .font-services-age, .font-services {
-    margin: 15px 15px;
+    /* margin: 15px 15px; */
+    margin: auto;
   }
 
   .title-services {
