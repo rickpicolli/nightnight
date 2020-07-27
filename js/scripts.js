@@ -45,20 +45,20 @@
   $(window).scroll(navbarCollapse);
 
   // Magnific popup calls
-  $('#portfolio').magnificPopup({
-    delegate: 'a',
-    type: 'image',
-    tLoading: 'Loading image #%curr%...',
-    mainClass: 'mfp-img-mobile',
-    gallery: {
-      enabled: true,
-      navigateByImgClick: true,
-      preload: [0, 1]
-    },
-    image: {
-      tError: '<a href="%url%">The image #%curr%</a> could not be loaded.'
-    }
-  });
+  // $('#portfolio').magnificPopup({
+  //   delegate: 'a',
+  //   type: 'image',
+  //   tLoading: 'Loading image #%curr%...',
+  //   mainClass: 'mfp-img-mobile',
+  //   gallery: {
+  //     enabled: true,
+  //     navigateByImgClick: true,
+  //     preload: [0, 1]
+  //   },
+  //   image: {
+  //     tError: '<a href="%url%">The image #%curr%</a> could not be loaded.'
+  //   }
+  // });
 
 })(jQuery); // End of use strict
 
@@ -88,6 +88,7 @@ function showSlides() {
     }
     _this._startScroll	= setInterval(function(){
       _this.next();
-    },  _this._autoSlide*1000);
+    },  _this._autoSlide*4000);
   }, Math.round(_this._autoSlide/2)*1000);
 };
+
